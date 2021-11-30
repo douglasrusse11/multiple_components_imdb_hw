@@ -31,7 +31,7 @@ const UpcomingFilms = () => {
         }
       ]);
     return (
-        <div class="UpcomingFilms">
+        <div className="UpcomingFilms">
         <h1>Upcoming Film Releases for UK</h1>
         <hr/>
         <FilmList films={films}/>
