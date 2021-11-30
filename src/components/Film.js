@@ -1,7 +1,9 @@
+import './Film.css';
+
 const Film = ({title, url}) => {
     return (
         <li>
-            <a href={url}>{title}</a>
+            <a href={url} class="Film">{title}</a>
         </li>
     );
 }

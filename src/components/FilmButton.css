@@ -1,0 +1,9 @@
+.FilmButton {
+    width: 100%;
+    color: #126cb4;
+    background-color: #a0c4e0;
+    border: 2px solid #000000;
+    font-size: 22px;
+    padding: 10px;
+    text-align: left;
+}

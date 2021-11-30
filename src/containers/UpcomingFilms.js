@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import FilmList from '../components/FilmList';
 import FilmButton from '../components/FilmButton';
+import './UpcomingFilms.css';
 
 const UpcomingFilms = () => {
     const [films, setFilms] = useState([
@@ -30,13 +31,13 @@ const UpcomingFilms = () => {
         }
       ]);
     return (
-        <>
+        <div class="UpcomingFilms">
         <h1>Upcoming Film Releases for UK</h1>
         <hr/>
         <FilmList films={films}/>
         <hr/>
         <FilmButton />
-        </>
+        </div>
     );
 }
 
